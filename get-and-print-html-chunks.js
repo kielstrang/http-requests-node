@@ -13,10 +13,6 @@ function getAndPrintHTMLChunks() {
     response.on('data', (data) => {
       console.log(data);
     });
-
-    response.on('end', () => {
-      console.log('ended');
-    });
   });
 }
 
